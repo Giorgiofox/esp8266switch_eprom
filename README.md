@@ -5,6 +5,9 @@ https://www.npmjs.com/package/homebridge-http-simple-switch
 
 In /home/pi/.homebridge/config.json configure it
 
+Feature:
+EEPROM status write, the device will remember his last status 
+
 Enjoy!
 
 
