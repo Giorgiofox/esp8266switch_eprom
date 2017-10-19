@@ -112,6 +112,11 @@ void loop()
   if (val >= 0)
 EEPROM.write(1,val);  
 digitalWrite(GPIO2, val);
+  if (val==1){ 
+    delay=500; //aspetto un po'
+  digitalWrite(GPIO2, 0); //spengo di nuovo
+  val=0;
+  }
 EEPROM.commit();  
 
   client.flush();
