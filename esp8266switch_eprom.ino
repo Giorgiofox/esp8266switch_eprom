@@ -16,8 +16,8 @@ extern "C" {
 #include <EEPROM.h>
 
 
-const char* ssid = "GiorgioFoX";
-const char* password = "Trinity412";
+const char* ssid = "yourwifi";
+const char* password = "yourpassword";
 char wiFiHostname[ ] = "ESP94";
 
 /// DA FARE: pulsante e interruttore ON OFF
